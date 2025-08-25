@@ -1,0 +1,14 @@
+Look up the TIMER header files - things time in millisecs 
+(elapsed time for a C++ process)
+Create a class that has a dynamically allocated 2D double array of nRows by nCols and create a
+copy and move constructor and a copy and move assignment operator.  Your basic constructor
+initializes it with 0s.
+Use the CHRONO library for elapsed time
+Then... test...
+1. create an instance of your class with 1,000,000 x 1,000,000 elements - time the initial
+instantiation.
+2. create a copy-constructor&#39;d instance of the class - time that.
+3. create a move-constructor&#39;d instance of the class - time that
+4. Create a copy-assignment of the class time - time that.
+5. Create a move-assignment of the class time -time that.
+Print out all the timings
